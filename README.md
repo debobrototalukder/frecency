@@ -98,6 +98,7 @@ class CustomModel < ApplicationRecord
 end
 
 top_records = CustomModel.frecency(20)
+```
 
 ## Contributing
 
